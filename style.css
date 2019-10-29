@@ -5,7 +5,7 @@ html
 
 body
 {
-    background-color: #E2E0E0;
+    background-color: white;
     font-family: 'Montserrat', sans-serif, Arial;
     font-size: 20px; 	
     line-height: 35px;
@@ -68,7 +68,7 @@ input, textarea, select
 
 .header-search
 {
-    background-color: #E2E0E0;
+    background-color: #026873;
     padding: 100px 0;
     margin-top: -105px;
 }
@@ -94,7 +94,7 @@ input, textarea, select
 .search-field::-webkit-input-placeholder
 {
     font-family: 'Montserrat', sans-serif, Arial;
-    color: #a1a1a1;
+    color: #D5F2E2;
     font-weight: 400;
 }
 .search-field::-moz-placeholder
@@ -120,8 +120,8 @@ input, textarea, select
 
 .header-holder
 {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #header-main-menu
@@ -139,7 +139,7 @@ input, textarea, select
 .sm-clean a.highlighted, .sm-clean ul a:hover, .sm-clean ul a:focus, 
 .sm-clean ul a:active, .sm-clean ul a.highlighted, .sm-clean .current_page_item a
 {
-    color: #FD3137;
+    color: #026873;
 }
 
 .sub-arrow
@@ -959,8 +959,8 @@ li.left-footer-content.mobile
 
     .header-holder 
     {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .blog-top-content.page-desc
@@ -1238,8 +1238,8 @@ li.left-footer-content.mobile
 
     .header-holder 
     {
-        padding-top: 85px;
-        padding-bottom: 85px;
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
 
     .header-logo
@@ -1350,8 +1350,8 @@ li.left-footer-content.mobile
 
     .header-holder 
     {
-        padding-top: 55px;
-        padding-bottom: 55px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .content-1330

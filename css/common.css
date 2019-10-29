@@ -334,7 +334,7 @@ sub
 
 .one,  .one_half,  .one_third,  .two_third,  .three_fourth, 
 .one_fourth{
-    margin-right: 200px;
+    margin-right: 50px;
     float: left;
     position: relative;
     margin-bottom: 30px;

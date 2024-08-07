@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <link rel="shortcut icon" href="images/favicon.png" />    
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700' rel='stylesheet' type='text/css'>		
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700' rel='stylesheet' type='text/css'>        
         <link rel="stylesheet" type="text/css"  href='css/clear.css' />
         <link rel="stylesheet" type="text/css"  href='css/common.css' />
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
@@ -18,11 +18,20 @@
         <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />        
         <link rel="stylesheet" type="text/css"  href='style.css' />
 
+        <style>
+            .grid-item {
+                transition: transform 0.3s ease;
+            }
+
+            .grid-item:hover {
+                transform: scale(0.9); /* Verkleinert die Kachel um 10% beim Hover */
+            }
+        </style>
+
         <!--[if lt IE 9]>
                 <script src="js/html5shiv.js"></script>                
                 <script src="js/respond.min.js"></script>                
         <![endif]-->
-
     </head>
     <body class="page">
 
@@ -39,13 +48,12 @@
         <div class="header-search">
             <div class="content-1330 center-relative">
                 <form class="search-form">
-                    <label>		
+                    <label>        
                         <input type="search" class="search-field" placeholder="Search ..." value="" name="s" title="Search for:">                        
                     </label>    
                 </form>               
             </div>
         </div>
-
 
         <div class="body-wrapper">           
             <div class="content-1330 header-holder center-relative">
@@ -73,7 +81,7 @@
                             <i class="fa fa-search"></i>                      
                         </div>
                     </div>
-                    <div class="clear"></div>							
+                    <div class="clear"></div>                            
                 </div>
                 <div class="clear"></div>
             </div>
@@ -182,7 +190,7 @@
             <!--Footer-->
 
             <footer class="footer">
-                <div class="content-1330 center-relative">			
+                <div class="content-1330 center-relative">            
                     <ul>
                         <li class="left-footer-content">
                             © 2018 Sun HTML Template. Crafted with <i class="fa fa-heart"></i> by <a href="http://drythemes.com">DryThemes</a>.            
@@ -208,10 +216,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             <!-- End .body-border -->
         </div>
 
-
-
         <!--Load JavaScript-->
-        <script src="js/jquery.js"></script>			                                       
+        <script src="js/jquery.js"></script>                                      
         <script src='js/jquery.fitvids.js'></script>
         <script src='js/jquery.smartmenus.min.js'></script>        
         <script src='js/imagesloaded.pkgd.js'></script>        

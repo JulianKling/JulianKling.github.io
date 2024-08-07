@@ -23,6 +23,49 @@
                 <script src="js/respond.min.js"></script>                
         <![endif]-->
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .content-wrap {
+                padding: 20px;
+            }
+    
+            .hackathon-entry {
+                margin-bottom: 40px;
+            }
+    
+            .hackathon-entry h3 {
+                margin-bottom: 10px;
+            }
+    
+            .hackathon-entry .content {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: row;
+            }
+    
+            .hackathon-entry .content img {
+                width: 150px;
+                margin-right: 20px;
+            }
+    
+            .hackathon-entry .text {
+                max-width: 600px;
+            }
+    
+            @media (max-width: 600px) {
+                .hackathon-entry .content {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+    
+                .hackathon-entry .content img {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+            }
+        </style>
+
     </head>
     <body class="single single-portfolio">
 
@@ -96,33 +139,40 @@
                                     </p>
                                     <p>&nbsp;</p>
                                     <br>
-                                    <div style="display: flex; align-items: flex-start;">
-                                        <img src="images/HYPERMOTION.png" alt="Comdirect Collabothon 2017" style="width: 150px; margin-right: 20px;">
-                                        <div>
-                                            <p>Comdirect Collabothon (1. Platz)</p>
-                                            <p>Haben Sie sich jemals gefragt, wer eigentlich hinter Ihren Lieblingsprodukten steckt? Ein gutes Beispiel ist "Nutella" – ein Produkt, das viele lieben, aber nicht jeder weiß, dass es von Ferrero hergestellt wird. Unsere Idee beim Comdirect Collabothon 2017 war es, eine App zu entwickeln, die genau diese Wissenslücke schließt. Mit der App konnten Nutzer ihre Umgebung scannen und Produkte, die ihnen gefallen, aufnehmen. Die App lieferte dann kontextuelle Informationen zu den Herstellern dieser Produkte und bot die Möglichkeit, direkt in diese Firmen zu investieren. Dadurch sollten die Nutzer besser über ihre Konsumentscheidungen informiert und gleichzeitig für den Aktienmarkt begeistert werden.</p>
+                                    <div class="hackathon-entry">
+                                        <h3>Comdirect Collabothon (1. Platz)</h3>
+                                        <div class="content">
+                                            <img src="images/HYPERMOTION.png" alt="Comdirect Collabothon 2017">
+                                            <div class="text">
+                                                <p>Haben Sie sich jemals gefragt, wer eigentlich hinter Ihren Lieblingsprodukten steckt? Ein gutes Beispiel ist "Nutella" – ein Produkt, das viele lieben, aber nicht jeder weiß, dass es von Ferrero hergestellt wird. Unsere Idee beim Comdirect Collabothon 2017 war es, eine App zu entwickeln, die genau diese Wissenslücke schließt. Mit der App konnten Nutzer ihre Umgebung scannen und Produkte, die ihnen gefallen, aufnehmen. Die App lieferte dann kontextuelle Informationen zu den Herstellern dieser Produkte und bot die Möglichkeit, direkt in diese Firmen zu investieren. Dadurch sollten die Nutzer besser über ihre Konsumentscheidungen informiert und gleichzeitig für den Aktienmarkt begeistert werden.</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <p>&nbsp;</p>
-                                
-                                    <p><strong>Hypermotion 2017 (1. Platz)</strong></p>
-                                    <p>Bei diesem Hackathon war unser Ziel, den Bahnverkehr zu optimieren und die Verspätungsvorhersage zu verbessern. Wir entwickelten ein zweistufiges System, das zunächst Social Media Daten analysierte, um zu prognostizieren, ob an bestimmten Haltestellen ein besonders hohes Fahrgastaufkommen zu erwarten ist, etwa nach Fußballspielen. Zusätzlich wurde eine Kamera im Führerhaus der U-Bahn installiert, die bei der Einfahrt in den Bahnhof eine visuelle Analyse durchführte. Diese Kamera zählte die Anzahl der wartenden Personen am Bahnsteig, um abzuschätzen, ob der Halt länger dauern könnte als üblich.</p>
-                                    <p>&nbsp;</p>
-                                
-                                    <p><strong>Zeiss Hackathon 2017 (2. Platz)</strong></p>
-                                    <p>Unsere Idee beim Zeiss Hackathon 2017 war es, Mikroskope so zu erweitern, dass mikroskopierte Objekte auch in 3D betrachtet werden können. Dazu entwickelten wir eine prototypische Halterung, die es ermöglichte, ein Smartphone auf das Okular des Mikroskops zu setzen. Mit dieser Vorrichtung wurden mehrere Fotos des Objekts aus verschiedenen Perspektiven aufgenommen. Diese Bilder wurden dann mithilfe von Fotogrammetrie zu einem 3D-Modell des Objekts zusammengesetzt, das anschließend in einer VR-Brille betrachtet werden konnte. Dies ermöglichte eine immersive Betrachtung mikroskopischer Details in einer dreidimensionalen Umgebung.</p>
-                                    <p>&nbsp;</p>
-                                
-                                    <p><strong>Symbioticon</strong></p>
-                                    <p>Im Jahr 2018 erhielten wir einen Sonderpreis für eine Lösung, die den Kundenservice in Banken durch Chatbots und KI verbesserte. 2020 sicherten wir uns den 1. Platz im Mastercard Track mit einer innovativen Zahlungsabwicklungslösung, die kontaktlose Zahlungen und Blockchain-Technologie integrierte. 2022 wurden wir zum Overall Winner gekürt, nachdem wir eine umfassende Plattform für digitales Banking entwickelt hatten, die das Nutzererlebnis und die Sicherheit auf ein neues Level hob.</p>
-                                    <p>&nbsp;</p>
-                                
-                                    <p><strong>Bankathon 2018 (1. Platz Payments Track)</strong></p>
-                                    <p>Beim Bankathon 2018 präsentierten wir eine Lösung für die Integration von Kryptowährungen in den Alltag. Unsere App ermöglichte es Nutzern, ihre Kryptowährungen direkt in Geschäften zu verwenden und dabei automatisch in lokale Währungen umzuwandeln.</p>
-                                    <p>&nbsp;</p>
-                                
-                                    <p><strong>Hackergy 2019 (1. Platz Smart City)</strong></p>
-                                    <p>Unser Projekt auf dem Hackergy 2019 fokussierte sich auf die Smart City Entwicklung. Wir entwickelten eine Plattform, die durch das Sammeln und Analysieren von Daten aus verschiedenen städtischen Systemen dazu beiträgt, die Energieeffizienz und Nachhaltigkeit in Städten zu verbessern.</p>
+                        
+                                    <div class="hackathon-entry">
+                                        <h3>Hypermotion 2017 (1. Platz)</h3>
+                                        <p>Bei diesem Hackathon war unser Ziel, den Bahnverkehr zu optimieren und die Verspätungsvorhersage zu verbessern. Wir entwickelten ein zweistufiges System, das zunächst Social Media Daten analysierte, um zu prognostizieren, ob an bestimmten Haltestellen ein besonders hohes Fahrgastaufkommen zu erwarten ist, etwa nach Fußballspielen. Zusätzlich wurde eine Kamera im Führerhaus der U-Bahn installiert, die bei der Einfahrt in den Bahnhof eine visuelle Analyse durchführte. Diese Kamera zählte die Anzahl der wartenden Personen am Bahnsteig, um abzuschätzen, ob der Halt länger dauern könnte als üblich.</p>
+                                    </div>
+                        
+                                    <div class="hackathon-entry">
+                                        <h3>Zeiss Hackathon 2017 (2. Platz)</h3>
+                                        <p>Unsere Idee beim Zeiss Hackathon 2017 war es, Mikroskope so zu erweitern, dass mikroskopierte Objekte auch in 3D betrachtet werden können. Dazu entwickelten wir eine prototypische Halterung, die es ermöglichte, ein Smartphone auf das Okular des Mikroskops zu setzen. Mit dieser Vorrichtung wurden mehrere Fotos des Objekts aus verschiedenen Perspektiven aufgenommen. Diese Bilder wurden dann mithilfe von Fotogrammetrie zu einem 3D-Modell des Objekts zusammengesetzt, das anschließend in einer VR-Brille betrachtet werden konnte. Dies ermöglichte eine immersive Betrachtung mikroskopischer Details in einer dreidimensionalen Umgebung.</p>
+                                    </div>
+                        
+                                    <div class="hackathon-entry">
+                                        <h3>Symbioticon</h3>
+                                        <p>Im Jahr 2018 erhielten wir einen Sonderpreis für eine Lösung, die den Kundenservice in Banken durch Chatbots und KI verbesserte. 2020 sicherten wir uns den 1. Platz im Mastercard Track mit einer innovativen Zahlungsabwicklungslösung, die kontaktlose Zahlungen und Blockchain-Technologie integrierte. 2022 wurden wir zum Overall Winner gekürt, nachdem wir eine umfassende Plattform für digitales Banking entwickelt hatten, die das Nutzererlebnis und die Sicherheit auf ein neues Level hob.</p>
+                                    </div>
+                        
+                                    <div class="hackathon-entry">
+                                        <h3>Bankathon 2018 (1. Platz Payments Track)</h3>
+                                        <p>Beim Bankathon 2018 präsentierten wir eine Lösung für die Integration von Kryptowährungen in den Alltag. Unsere App ermöglichte es Nutzern, ihre Kryptowährungen direkt in Geschäften zu verwenden und dabei automatisch in lokale Währungen umzuwandeln.</p>
+                                    </div>
+                        
+                                    <div class="hackathon-entry">
+                                        <h3>Hackergy 2019 (1. Platz Smart City)</h3>
+                                        <p>Unser Projekt auf dem Hackergy 2019 fokussierte sich auf die Smart City Entwicklung. Wir entwickelten eine Plattform, die durch das Sammeln und Analysieren von Daten aus verschiedenen städtischen Systemen dazu beiträgt, die Energieeffizienz und Nachhaltigkeit in Städten zu verbessern.</p>
+                                    </div>
                                 </div>
                                 
                                 <div class="clear"></div>

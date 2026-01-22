@@ -622,7 +622,6 @@ ul.archive-list li span
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
-    transition: transform 0.3s ease;
     will-change: transform;
     contain: layout style paint;
 }
@@ -630,6 +629,7 @@ ul.archive-list li span
 .grid-item:hover
 {
     transform: scale(0.95);
+    transition: transform 0.3s ease;
 }
 
 #content .grid-item img 

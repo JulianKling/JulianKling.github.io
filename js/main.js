@@ -101,12 +101,12 @@ jQuery(document).ready(function () {
             jQuery(this).find('p').css('margin-top', jQuery(this).height() / 2);
         });
 
-        //Fix for portfolio hover text fade in/out
-        jQuery('.grid-item a').hover(function () {
-            jQuery(this).find('.portfolio-text-holder').fadeIn('fast');
-        }, function () {
-            jQuery(this).find('.portfolio-text-holder').fadeOut('fast');
-        });
+        //Fix for portfolio hover text fade in/out - now handled by CSS
+        // jQuery('.grid-item a').hover(function () {
+        //     jQuery(this).find('.portfolio-text-holder').fadeIn('fast');
+        // }, function () {
+        //     jQuery(this).find('.portfolio-text-holder').fadeOut('fast');
+        // });
     });
 
 

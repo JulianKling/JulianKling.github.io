@@ -23,45 +23,72 @@
                 <script src="js/respond.min.js"></script>                
         <![endif]-->
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-            .content-wrap {
-                padding: 20px;
-            }
-    
             .hackathon-entry {
-                margin-bottom: 40px;
+                margin-bottom: 60px;
+                padding-bottom: 40px;
+                border-bottom: 1px solid #f0f0f0;
+            }
+            
+            .hackathon-entry:last-child {
+                border-bottom: none;
             }
     
-            .hackathon-entry h3 {
-                margin-bottom: 10px;
+            .hackathon-entry strong {
+                font-size: 28px;
+                font-weight: 700;
+                display: block;
+                margin-bottom: 20px;
+                color: #191919;
             }
     
             .hackathon-entry .content {
                 display: flex;
                 align-items: flex-start;
-                flex-direction: row;
+                gap: 30px;
             }
     
             .hackathon-entry .content img {
-                width: 150px;
-                margin-right: 20px;
+                width: 180px;
+                height: 180px;
+                object-fit: cover;
+                border-radius: 4px;
+                flex-shrink: 0;
             }
     
-            .hackathon-entry .text {
-                max-width: 600px;
+            .hackathon-entry .text p {
+                margin-bottom: 15px;
+                line-height: 1.7;
+            }
+            
+            .hackathon-intro {
+                margin-bottom: 60px;
+            }
+            
+            .hackathon-intro h2 {
+                font-size: 36px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            
+            .hackathon-intro .subtitle {
+                font-style: italic;
+                color: #666;
+                margin-bottom: 30px;
             }
     
-            @media (max-width: 600px) {
+            @media (max-width: 768px) {
                 .hackathon-entry .content {
                     flex-direction: column;
-                    align-items: center;
-                    text-align: center;
                 }
     
                 .hackathon-entry .content img {
-                    margin-right: 0;
-                    margin-bottom: 20px;
+                    width: 100%;
+                    max-width: 300px;
+                }
+                
+                .hackathon-entry strong {
+                    font-size: 24px;
                 }
             }
         </style>
@@ -125,29 +152,26 @@
                 <article>                                              
                     <div class="content-1330 center-relative clear">                
                         <div class="entry-content">
-                            <div class="content-wrap">                           
                                 <div class="clear"></div>
                                 <p>&nbsp;</p>
                                 <p>&nbsp;</p>
-                                <p>&nbsp;</p>
-                                <div class="text-left last">
-                                    <strong>Hackathons</strong>
-                                    <p><i>Innovation durch Kreativität und Zusammenarbeit</i></p>
-                                    <p>&nbsp;</p>
+                                
+                                <div class="hackathon-intro">
+                                    <h2>Hackathons</h2>
+                                    <p class="subtitle">Innovation durch Kreativität und Zusammenarbeit</p>
                                     <p>
                                         Hackathons sind intensive, oft mehrtägige Events, bei denen kreative Köpfe zusammenkommen, um innovative Lösungen für verschiedene Herausforderungen zu entwickeln. Diese Veranstaltungen bieten eine großartige Gelegenheit, neue Technologien kennenzulernen, Teamarbeit zu fördern und sich mit Gleichgesinnten zu vernetzen. Neben der Arbeit mit neuesten Technologien besteht die Herausforderung darin, mit Menschen zusammenzuarbeiten, die man vorher noch nicht kennengelernt hat.
                                     </p>
                                     <p>
                                         In einem Hackathon-Team bringt jeder ein heterogenes Skillset und unterschiedliche Erfahrungen ein. Innerhalb kurzer Zeit muss man sich auf eine Idee einigen, die Anforderungen und Rahmenbedingungen der Veranstalter und der Challenge verstehen, die Idee prototypisch umsetzen und schließlich vor einem größeren Publikum präsentieren. Oftmals erfolgt diese Präsentation auch in englischer Sprache. Hier sind einige der Hackathons, an denen ich teilgenommen habe, sowie eine kurze Beschreibung der entwickelten Projekte.
-                                    </p>                                    
-                                    <p>&nbsp;</p>
-                                    <br>
+                                    </p>
+                                </div>
  
                                     <div class="hackathon-entry">
                                         <strong>Comdirect Collabothon</strong> (2017)
                                         <div class="content">
                                             <img src="images/COMDIRECT_COLLABOTHON.png" alt="Comdirect Collabothon 2017">
-                                            <div class="text">
+                                            <div class="text"> 2017</strong>
                                                 <p>Hast Du Dich jemals gefragt, wer eigentlich hinter Deinen Lieblingsprodukten steckt? Ein gutes Beispiel ist "Nutella" – ein Produkt, das viele lieben, aber nicht jeder weiß, dass es von Ferrero hergestellt wird.</p>
                                                 <p>Unsere Idee beim Comdirect Collabothon 2017 war es, eine App zu entwickeln, die genau diese Wissenslücke schließt. Mit der App konnten Nutzer ihre Umgebung scannen und Produkte, die ihnen gefallen, aufnehmen.</p>
                                                 <p>Die App lieferte dann kontextuelle Informationen zu den Herstellern dieser Produkte und bot die Möglichkeit, direkt in diese Firmen zu investieren. Dadurch sollten die Nutzer besser über ihre Konsumentscheidungen informiert und gleichzeitig für den Aktienmarkt begeistert werden.</p>
@@ -156,7 +180,7 @@
                                     </div>
                                     
                                     <div class="hackathon-entry">
-                                        <strong>Hypermotion</strong> (2017)
+                                        <strong>Hypermotion 2017</strong>
                                         <div class="content">
                                             <img src="images/HYPERMOTION.png" alt="Hypermotion 2017">
                                             <div class="text">
@@ -168,7 +192,7 @@
                                     </div>
                                     
                                     <div class="hackathon-entry">
-                                        <strong>Zeiss Hackathon</strong> (2017)
+                                        <strong>Zeiss Hackathon 2017</strong>
                                         <div class="content">
                                             <img src="images/ZEISS_HACKATHON.png" alt="Zeiss Hackathon 2017">
                                             <div class="text">
@@ -192,7 +216,7 @@
                                     </div>
                                     
                                     <div class="hackathon-entry">
-                                        <strong>Bankathon</strong> (2018)
+                                        <strong>Bankathon 2018</strong>
                                         <div class="content">
                                             <img src="images/BANKATHON.png" alt="Bankathon 2018">
                                             <div class="text">
@@ -204,7 +228,7 @@
                                     </div>
                                     
                                     <div class="hackathon-entry">
-                                        <strong>Hackergy</strong> (2019)
+                                        <strong>Hackergy 2019</strong>
                                         <div class="content">
                                             <img src="images/HACKERGY.png" alt="Hackergy 2019">
                                             <div class="text">
@@ -215,9 +239,7 @@
                                     </div>
                                     
                                     
-                                
                                 <div class="clear"></div>
-                            </div>
                         </div>
                         <div class="clear"></div>
                     </div>

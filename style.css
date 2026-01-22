@@ -1307,9 +1307,19 @@ ul.archive-list li span
     right: 0px;
     z-index: 1;
     font-size: 26px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     text-align: center;   
-    display: none;    
+    display: none;
+}
+
+.grid-item
+{
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover
+{
+    transform: scale(0.95);
 }
 
 .grid-item a:hover

@@ -622,6 +622,14 @@ ul.archive-list li span
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
+    transition: transform 0.3s ease;
+    will-change: transform;
+    contain: layout style paint;
+}
+
+.grid-item:hover
+{
+    transform: scale(0.95);
 }
 
 #content .grid-item img 
@@ -631,6 +639,8 @@ ul.archive-list li span
     height: auto;
     max-height: none;
     max-width: none;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 .grid-sizer, .grid-item 
@@ -1310,16 +1320,6 @@ ul.archive-list li span
     background-color: rgba(255, 255, 255, 0.9);
     text-align: center;   
     display: none;
-}
-
-.grid-item
-{
-    transition: transform 0.3s ease;
-}
-
-.grid-item:hover
-{
-    transform: scale(0.95);
 }
 
 .grid-item a:hover

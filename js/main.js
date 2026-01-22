@@ -12,7 +12,7 @@ jQuery(document).ready(function () {
         });
     } else
     {
-        jQuery("html").niceScroll({cursorcolor: "#b1b1b1", scrollspeed: 100, mousescrollstep: 80, cursorwidth: "12px", cursorborder: "none", cursorborderradius: "0px"});
+        jQuery("html").niceScroll({cursorcolor: "#b1b1b1", scrollspeed: 100, mousescrollstep: 80, cursorwidth: "12px", cursorborder: "none", cursorborderradius: "0px", hwacceleration: true, enablekeyboard: false, smoothscroll: true, autohidemode: false});
 
         //Smooth scroll on single post (comments)
         jQuery('.post-num-comments a').click(function (e) {
@@ -76,7 +76,7 @@ jQuery(document).ready(function () {
                             var ua = navigator.userAgent.toLowerCase();
                             if (!(ua.indexOf("safari/") !== -1 && ua.indexOf("windows") !== -1 && ua.indexOf("chrom") === -1))
                             {
-                                jQuery("html").niceScroll({cursorcolor: "#b1b1b1", scrollspeed: 100, mousescrollstep: 80, cursorwidth: "12px", cursorborder: "none", cursorborderradius: "0px"});
+                                jQuery("html").niceScroll({cursorcolor: "#b1b1b1", scrollspeed: 100, mousescrollstep: 80, cursorwidth: "12px", cursorborder: "none", cursorborderradius: "0px", hwacceleration: true, enablekeyboard: false, smoothscroll: true, autohidemode: false});
                             }
                         }
                     }
@@ -239,7 +239,7 @@ jQuery(window).load(function () {
                 var ua = navigator.userAgent.toLowerCase();
                 if (!(ua.indexOf("safari/") !== -1 && ua.indexOf("windows") !== -1 && ua.indexOf("chrom") === -1))
                 {
-                    jQuery("html").niceScroll({cursorcolor: "#b1b1b1", scrollspeed: 100, mousescrollstep: 80, cursorwidth: "12px", cursorborder: "none", cursorborderradius: "0px"});
+                    jQuery("html").niceScroll({cursorcolor: "#b1b1b1", scrollspeed: 100, mousescrollstep: 80, cursorwidth: "12px", cursorborder: "none", cursorborderradius: "0px", hwacceleration: true, enablekeyboard: false, smoothscroll: true, autohidemode: false});
                 }
             }
         }

@@ -45,13 +45,14 @@ jQuery(document).ready(function () {
             itemSelector: '.grid-item',
             masonry: {
                 columnWidth: '.grid-sizer'
-            }
+            },
+            transitionDuration: 0
         });
 
         // bind filter button click
         jQuery('.filters-button-group').on('click', '.button', function () {
             var filterValue = jQuery(this).attr('data-filter');
-            grid.isotope({filter: filterValue});
+            grid.isotope({filter: filterValue, transitionDuration: 0});
             grid.on('arrangeComplete', function () {
                 jQuery(".grid-item:visible a[rel^='prettyPhoto']").prettyPhoto({
                     slideshow: false, /* false OR interval time in ms */

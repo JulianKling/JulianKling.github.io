@@ -19,9 +19,96 @@
         <link rel="stylesheet" type="text/css"  href='style.css' />
 
         <!--[if lt IE 9]>
-                <script src="js/html5shiv.js"></script>                
-                <script src="js/respond.min.js"></script>                
+                <script src="js/html5shiv.js"></script>
+                <script src="js/respond.min.js"></script>
         <![endif]-->
+
+        <style>
+            .project-header {
+                margin-bottom: 60px;
+            }
+
+            .project-title {
+                font-size: 46px;
+                font-weight: 700;
+                margin-bottom: 15px;
+                letter-spacing: -2px;
+                color: #191919;
+            }
+
+            .project-tagline {
+                font-style: italic;
+                color: #666;
+                font-size: 24px;
+                margin-bottom: 40px;
+            }
+
+            .project-meta {
+                background-color: #FAF6F6;
+                padding: 30px;
+                border-left: 4px solid #FD3137;
+                margin-bottom: 50px;
+            }
+
+            .project-meta-item {
+                margin-bottom: 15px;
+                font-size: 20px;
+                line-height: 1.6;
+            }
+
+            .project-meta-item:last-child {
+                margin-bottom: 0;
+            }
+
+            .project-meta-item strong {
+                font-weight: 700;
+                color: #191919;
+                min-width: 120px;
+                display: inline-block;
+            }
+
+            .project-content {
+                font-family: 'PT Serif', serif;
+                font-size: 22px;
+                line-height: 40px;
+                color: #191919;
+            }
+
+            .project-content p {
+                margin-bottom: 30px;
+            }
+
+            .project-section {
+                margin-bottom: 50px;
+            }
+
+            .project-section-title {
+                font-size: 28px;
+                font-weight: 700;
+                margin-bottom: 25px;
+                color: #191919;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            @media (max-width: 768px) {
+                .project-title {
+                    font-size: 36px;
+                }
+
+                .project-tagline {
+                    font-size: 20px;
+                }
+
+                .project-meta {
+                    padding: 20px;
+                }
+
+                .project-content {
+                    font-size: 20px;
+                    line-height: 36px;
+                }
+            }
+        </style>
 
     </head>
     <body class="single single-portfolio">
@@ -82,27 +169,40 @@
                 <article>                                              
                     <div class="content-1330 center-relative clear">                
                         <div class="entry-content">
-                            <div class="content-wrap">                           
+                            <div class="content-wrap">
                                 <div class="clear"></div>
                                 <p>&nbsp;</p>
                                 <p>&nbsp;</p>
-                                <p>&nbsp;</p>
-                                <div class="one_half text-right portfolio-item-info">
-                                    <strong>Project Name:</strong>&nbsp; Brainy<br>
-			  	     <strong>Type:</strong> Native Android Application<p></p>
-                                    <strong>Year:</strong> 2017-2019<p></p>
+
+                                <div class="project-header">
+                                    <h1 class="project-title">Brainy</h1>
+                                    <p class="project-tagline">Because learning needs a face</p>
                                 </div>
-                                <div class="one_half text-left last ">
-                                    <strong>Brainy</strong>
-					<p><i>Because learning needs a face</i></p>
-                                    <p>&nbsp;</p>
-                                    <p>
-                                      Selbstgesteuertes Lernen kann durch klassische Lerntools wie Zeitmanagement und Methodentipps effektiver, nachhaltiger und motivierender gestaltet werden. Leider erreichen diese Tools die Lernenden häufig nicht oder sind nicht auf deren Lerntyp individuell passend abgestimmt. Brainy leitet durch intelligent unterteilte Lernphasen mit Hilfe von künstlicher Intelligenz und durch Einspielen methodischer Tipps das selbstgesteuerte Lernen an und ermöglicht einen direkten Zugriff auf diese Lernmethoden. Mit der Zeit wird so ein Lernprofil erstellt und dem Lernenden ermöglicht, das eigenständige Lernen effizienter zu gestalten.
-                                    </p>
-<p>&nbsp;</p>
-                                    <br>
-                                    Brainy ist eine Mobile-Applikation, die jeder auf seinem Handy nutzen kann. Hauptbestandteile sind ein Timer, der Dir sagt, wann Du welches Phase des Lernens angehen solltest und wann eine Pause passend wäre, sowie ein Ratgeber, der Dir individuelle, methodische Lerntipps während deiner Lernzeit zu spielt und damit den Lernprozess in Zukunft optimiert.
+
+                                <div class="project-meta">
+                                    <div class="project-meta-item">
+                                        <strong>Project Name:</strong> Brainy
+                                    </div>
+                                    <div class="project-meta-item">
+                                        <strong>Type:</strong> Native Android Application
+                                    </div>
+                                    <div class="project-meta-item">
+                                        <strong>Year:</strong> 2017-2019
+                                    </div>
                                 </div>
+
+                                <div class="project-content">
+                                    <div class="project-section">
+                                        <p>
+                                            Selbstgesteuertes Lernen kann durch klassische Lerntools wie Zeitmanagement und Methodentipps effektiver, nachhaltiger und motivierender gestaltet werden. Leider erreichen diese Tools die Lernenden häufig nicht oder sind nicht auf deren Lerntyp individuell passend abgestimmt. Brainy leitet durch intelligent unterteilte Lernphasen mit Hilfe von künstlicher Intelligenz und durch Einspielen methodischer Tipps das selbstgesteuerte Lernen an und ermöglicht einen direkten Zugriff auf diese Lernmethoden. Mit der Zeit wird so ein Lernprofil erstellt und dem Lernenden ermöglicht, das eigenständige Lernen effizienter zu gestalten.
+                                        </p>
+
+                                        <p>
+                                            Brainy ist eine Mobile-Applikation, die jeder auf seinem Handy nutzen kann. Hauptbestandteile sind ein Timer, der Dir sagt, wann Du welches Phase des Lernens angehen solltest und wann eine Pause passend wäre, sowie ein Ratgeber, der Dir individuelle, methodische Lerntipps während deiner Lernzeit zu spielt und damit den Lernprozess in Zukunft optimiert.
+                                        </p>
+                                    </div>
+                                </div>
+
                                 <div class="clear"></div>
                             </div>
                         </div>
